@@ -1,0 +1,504 @@
+#mycanvas {
+	position: absolute;
+	margin: 0px;
+	border: 0;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	display: block;
+}
+
+#text {
+	margin-left: 20px;
+	margin-right: 100px;
+}
+	
+#menu {
+  background-color:white;
+  font-size:18px;
+  position:fixed;
+  color:black;
+  z-index:4;
+  padding-top:15px;
+  padding-bottom:15px;
+  width: 100%;
+  position: fixed;
+  display:inline-block;
+  margin: 0px;
+	left: 0px;
+  bottom:0%;
+  padding-left:27px;
+  text-align:left;
+  border-top-style:solid;
+  border-top-width:1px;
+}
+
+#credit {
+	text-align:right;
+	display:inline-block;
+	width:46%;
+	right:0px;
+}
+
+a {
+	color:black;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:none;
+	color:blue;
+}
+
+
+#introduction {
+  font-size: 40px;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+  margin-bottom:150px;
+}
+
+#chapter1 {
+  font-size: 40px;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  margin-bottom:150px;
+
+}
+
+#chapter2 {
+  font-size: 40px;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  margin-bottom:150px;
+
+}
+#chapter3 {
+  font-size: 40px;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  margin-bottom:150px;
+
+}
+
+#conclusion {
+  font-size: 40px;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  margin-bottom:150px;
+
+}
+
+#resources {
+    font-size:40px;
+}
+
+#resources-content {
+    font-size:25px;
+
+}
+
+#notmywords {
+  margin-left: 120px;
+  font-size: 30px;
+}
+
+#header {
+	width:100%;
+	height:100%;
+}
+
+#title{
+  margin-top:70px;
+	font-size: 100px;
+	text-align:center;
+	line-height:100px;
+}
+
+#question {
+	text-align:center;
+	line-height:72px;
+	font-size:72px;
+}
+
+
+
+.footnote {
+	position: relative;
+    display: inline-block;
+	vertical-align: super;
+	font-size: 50%;
+
+}
+
+.footnote-content-image {
+	max-width:300px;
+    display: none;
+    position: absolute;
+    padding: 12px 16px;
+    z-index:90000000000;
+    right:0;
+
+}
+
+.footnote-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    width:260px;
+
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 14px;
+    font-weight:normal;
+    font-style:normal;
+    z-index:1000000;
+    text-align:justify;
+    line-height:14px;
+}
+
+.footnote-content2 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    width:180px;
+
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 14px;
+    font-weight:normal;
+    font-style:normal;
+    z-index:1000000;
+    text-align:justify;
+    line-height:14px;
+}
+.footnote-content3 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    width:270px;
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 14px;
+    font-weight:normal;
+    font-style:normal;
+    z-index:1000000;
+    text-align:justify;
+    line-height:14px;
+}
+.footnote-content4 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    width:340px;
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 14px;
+    font-weight:normal;
+    font-style:normal;
+    z-index:1000000;
+    text-align:justify;
+    line-height:14px;
+}
+.footnote-content5 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    width:270px;
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 14px;
+    font-weight:normal;
+    font-style:normal;
+    z-index:1000000;
+    text-align:justify;
+    line-height:14px;
+}
+.footnote-content6 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    width:120px;
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 14px;
+    font-weight:normal;
+    font-style:normal;
+    z-index:1000000;
+    text-align:justify;
+    line-height:14px;
+}
+.footnote-content7 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    width:320px;
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 14px;
+    font-weight:normal;
+    font-style:normal;
+    z-index:1000000;
+    text-align:justify;
+    line-height:14px;
+}
+.footnote-content8 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    width:380px;
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 14px;
+    font-weight:normal;
+    font-style:normal;
+    z-index:1000000;
+    text-align:justify;
+    line-height:14px;
+}
+.footnote-content9 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    width:270px;
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 14px;
+    font-weight:normal;
+    font-style:normal;
+    z-index:1000000;
+    text-align:justify;
+    line-height:14px;
+}
+.footnote-content10 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    width:270px;
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 14px;
+    font-weight:normal;
+    font-style:normal;
+    z-index:1000000;
+    text-align:justify;
+    line-height:14px;
+}
+.footnote-content11 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    width:320px;
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 14px;
+    font-weight:normal;
+    font-style:normal;
+    z-index:1000000;
+    text-align:justify;
+    line-height:14px;
+}
+.footnote-content12 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    width:200px;
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 14px;
+    font-weight:normal;
+    font-style:normal;
+    z-index:1000000;
+    text-align:justify;
+    line-height:14px;
+}
+.footnote-content13 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    width:270px;
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 14px;
+    font-weight:normal;
+    font-style:normal;
+    z-index:1000000;
+    text-align:justify;
+    line-height:14px;
+}
+.footnote-content14 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    width:270px;
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 14px;
+    font-weight:normal;
+    font-style:normal;
+    z-index:1000000;
+    text-align:justify;
+    line-height:14px;
+}
+.footnote-content15 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    width:300px;
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 14px;
+    font-weight:normal;
+    font-style:normal;
+    z-index:1000000;
+    text-align:justify;
+    line-height:14px;
+}
+.footnote-content16 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    width:380px;
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 14px;
+    font-weight:normal;
+    font-style:normal;
+    z-index:1000000;
+    text-align:justify;
+    line-height:14px;
+}
+.footnote-content17 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    width:250px;
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 12px;
+    font-weight:normal;
+    font-style:normal;
+    z-index:1000000;
+    text-align:justify;
+    line-height:14px;
+}
+.footnote-content18 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    width:380px;
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 14px;
+    font-weight:normal;
+    font-style:normal;
+    z-index:1000000;
+    text-align:justify;
+    line-height:14px;
+}
+.footnote:hover .footnote-content18 {
+    display: block;
+}
+.footnote:hover .footnote-content17 {
+    display: block;
+}
+.footnote:hover .footnote-content16 {
+    display: block;
+}
+.footnote:hover .footnote-content15 {
+    display: block;
+}
+.footnote:hover .footnote-content14 {
+    display: block;
+}
+.footnote:hover .footnote-content13 {
+    display: block;
+}
+.footnote:hover .footnote-content12 {
+    display: block;
+}
+.footnote:hover .footnote-content11 {
+    display: block;
+}
+.footnote:hover .footnote-content10 {
+    display: block;
+}
+.footnote:hover .footnote-content9 {
+    display: block;
+}
+.footnote:hover .footnote-content8 {
+    display: block;
+}
+.footnote:hover .footnote-content7 {
+    display: block;
+}
+.footnote:hover .footnote-content6 {
+    display: block;
+}
+.footnote:hover .footnote-content5 {
+    display: block;
+}
+.footnote:hover .footnote-content4 {
+    display: block;
+}
+.footnote:hover .footnote-content3 {
+    display: block;
+}
+.footnote:hover .footnote-content2 {
+    display: block;
+}
+
+.footnote:hover .footnote-content {
+    display: block;
+}
+
+.footnote:hover .footnote-content-image {
+    display: block;
+}
+
+#imginfo-horizontal {
+  font-size: 17px;
+  margin-left: 170px;
+}
+#imginfo-vertical {
+  display: inline-block;
+  font-size: 17px;
+  margin-right: 265px;
+}
+
+img.horizontal{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+  border:1px solid black;
+  width:70%;
+  margin-top:3%;
+  margin-bottom:1%;
+}
+
+img.vertical{
+display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  border:1px solid black;
+  width:30%;
+  margin-top:3%;
+}

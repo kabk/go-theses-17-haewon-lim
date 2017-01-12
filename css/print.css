@@ -1,0 +1,102 @@
+#mycanvas {
+	position: absolute;
+	margin: 0px;
+	border: 0;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	display: block;
+}
+
+#text {
+	margin-left: 20px;
+	margin-right: 150px;
+}
+	
+#menu {
+ display:none;
+}
+
+#introduction {
+  font-size: 35px;
+  border-bottom-style:none;
+  margin-bottom:120px;
+}
+#chapter1 {
+  font-size: 35px;
+  border-bottom-style:none;
+  margin-bottom:200px;
+}
+
+#chapter2 {
+  font-size: 35px;
+  border-bottom-style:none;
+  margin-bottom:120px;
+}
+#chapter3 {
+  font-size: 35px;
+  border-bottom-style:none;
+  margin-bottom:120px;
+}
+
+#conclusion {
+  font-size: 35px;
+  border-bottom-style:none;
+  margin-bottom:120px;
+}
+
+#notmywords {
+  margin-left: 120px;
+  font-size: 25px;
+  line-height:25px;
+
+}
+
+#resources {
+    font-size:35px;
+}
+
+#resources-content {
+    font-size:25px;
+
+}
+
+#header {
+	width:100%;
+	height:100%;
+}
+
+#title{
+  margin-top:200px;
+	font-size: 100px;
+	text-align:center;
+	line-height:100px;
+}
+
+#question {
+  margin-bottom:570px;
+	text-align:center;
+	line-height:72px;
+	font-size:72px;
+}
+
+
+img.horizontal{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+  border:1px solid black;
+  width:70%;
+  margin-top:3%;
+  margin-bottom:3%;
+}
+
+img.vertical{
+display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  border:1px solid black;
+  width:30%;
+  margin-top:3%;
+  margin-bottom:3%;
+}
