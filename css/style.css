@@ -9,13 +9,13 @@
 }
 
 #text {
-	margin-left: 20px;
-	margin-right: 100px;
+	margin-left: 50px;
+	margin-right: 150px;
 }
 	
 #menu {
   background-color:white;
-  font-size:18px;
+  font-size:16px;
   position:fixed;
   color:black;
   z-index:4;
@@ -27,7 +27,7 @@
   margin: 0px;
 	left: 0px;
   bottom:0%;
-  padding-left:27px;
+  padding-left:36px;
   text-align:left;
   border-top-style:solid;
   border-top-width:1px;
@@ -36,7 +36,7 @@
 #credit {
 	text-align:right;
 	display:inline-block;
-	width:46%;
+    width:45%;
 	right:0px;
 }
 
@@ -52,14 +52,14 @@ a:hover {
 
 
 #introduction {
-  font-size: 40px;
+  font-size: 36px;
 	border-bottom-style:solid;
 	border-bottom-width:1px;
   margin-bottom:150px;
 }
 
 #chapter1 {
-  font-size: 40px;
+  font-size: 36px;
   border-bottom-style:solid;
   border-bottom-width:1px;
   margin-bottom:150px;
@@ -67,14 +67,14 @@ a:hover {
 }
 
 #chapter2 {
-  font-size: 40px;
+  font-size: 36px;
   border-bottom-style:solid;
   border-bottom-width:1px;
   margin-bottom:150px;
 
 }
 #chapter3 {
-  font-size: 40px;
+  font-size: 36px;
   border-bottom-style:solid;
   border-bottom-width:1px;
   margin-bottom:150px;
@@ -82,7 +82,7 @@ a:hover {
 }
 
 #conclusion {
-  font-size: 40px;
+  font-size: 36px;
   border-bottom-style:solid;
   border-bottom-width:1px;
   margin-bottom:150px;
@@ -90,17 +90,17 @@ a:hover {
 }
 
 #resources {
-    font-size:40px;
+    font-size:36px;
 }
 
 #resources-content {
-    font-size:25px;
+    font-size:24px;
 
 }
 
 #notmywords {
   margin-left: 120px;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 #header {
@@ -118,7 +118,9 @@ a:hover {
 #question {
 	text-align:center;
 	line-height:72px;
-	font-size:65px;
+	font-size:55px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 
@@ -480,8 +482,8 @@ a:hover {
 }
 #imginfo-vertical {
   display: inline-block;
-  font-size: 17px;
-  margin-right: 265px;
+  font-size: 14px;
+  margin-right: 250px;
 }
 
 img.horizontal{
