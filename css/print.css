@@ -9,7 +9,7 @@
 }
 
 #text {
-	margin-left: 20px;
+	margin-left: 30px;
 	margin-right: 150px;
 }
 	
@@ -42,7 +42,7 @@
 #conclusion {
   font-size: 35px;
   border-bottom-style:none;
-  margin-bottom:120px;
+  margin-bottom:230px;
 }
 
 #notmywords {
@@ -74,7 +74,7 @@
 }
 
 #question {
-  margin-bottom:570px;
+  margin-bottom:600px;
 	text-align:center;
 	line-height:72px;
 	font-size:72px;
